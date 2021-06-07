@@ -4,7 +4,7 @@ class TeachGroup:
         self.students = []
 
 
-class Student(TeachGroup):
+class Student:
     def __init__(self, name, birthday, address):
         self.name = name
         self.birthday = birthday
