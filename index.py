@@ -5,7 +5,6 @@ class TeachGroup:
 
 
 class Student(TeachGroup):
-
     def __init__(self, name, birthday, address):
         self.name = name
         self.birthday = birthday
