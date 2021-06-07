@@ -1,7 +1,7 @@
 class TeachGroup:
-    def __init__(self, title, students):
+    def __init__(self, title):
         self.title = title
-        self.students = students
+        self.students = []
 
 
 class Student(TeachGroup):
@@ -9,3 +9,5 @@ class Student(TeachGroup):
         self.name = name
         self.birthday = birthday
         self.address = address
+
+
