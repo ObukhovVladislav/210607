@@ -1,7 +1,7 @@
 class TeachGroup:
-    def __init__(self, title, student):
+    def __init__(self, title, students):
         self.title = title
-        self.student = student
+        self.students = students
 
 
 class Student(TeachGroup):
